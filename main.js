@@ -11,7 +11,10 @@ function createWindow() {
   });
 
   // 然后加载应用的 index.html。
-  win.loadURL(`file://${__dirname}/dist/mayiwen_ae/browser/index.html`);
+//   win.loadURL(`file://${__dirname}/dist/mayiwen_ae/browser/index.html`);
+   // 加载 Vue 应用的 index.html 文件
+   win.loadURL('http://localhost:4200')
+
   // 打开开发者工具
   win.webContents.openDevTools();
 

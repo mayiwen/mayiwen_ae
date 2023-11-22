@@ -7,8 +7,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "electron": "ng build && electron .",
-    "e": "ng build && electron ."
+    "electron": "electron .",
+    "e": "ng serve && electron ."
   },
   "main": "main.js",
   "private": true,
